@@ -16,12 +16,12 @@ class ModelInfo:
 MODELS = [
     ModelInfo(repo="meta-llama/Llama-2-70b-hf"),
     ModelInfo(repo="meta-llama/Llama-2-70b-chat-hf"),
-    ModelInfo(repo="enoch/llama-65b-hf"),
-    ModelInfo(repo="enoch/llama-65b-hf", adapter="timdettmers/guanaco-65b"),
+    #ModelInfo(repo="enoch/llama-65b-hf"),
+    #ModelInfo(repo="enoch/llama-65b-hf", adapter="timdettmers/guanaco-65b"),
     # ModelInfo(repo="bigscience/bloom"),
-    ModelInfo(repo="bigscience/bloomz"),
+    #ModelInfo(repo="bigscience/bloomz"),
 ]
-DEFAULT_MODEL_NAME = "enoch/llama-65b-hf"
+DEFAULT_MODEL_NAME = "meta-llama/Llama-2-70b-chat-hf"
 
 INITIAL_PEERS = PUBLIC_INITIAL_PEERS
 # Set this to a list of multiaddrs to connect to a private swarm instead of the public one, for example:
