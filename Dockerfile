@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # Step 5: Expose the necessary port
-EXPOSE 5000
+EXPOSE 7860
 
 # Step 6: Define the entry point command
-CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=7860"]
